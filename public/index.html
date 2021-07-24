@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Realtime Analytics</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <link href ="/styles.css" rel="stylesheet"/>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div id="order-window">
+      <h2>ORDERS</h2>
+      <div id="orders">
+      </div>
+    </div>
+    <div id="shift-window">
+      <h2>SHIFT</h2>
+      <ul id="shift-list"></ul>
+    </div>
+    <div id="notice-window">
+      <h2>NOTICES</h2>
+      <div id="output"></div>
+      <div id="notice"></div>
+    </div>
+    <script src="/notice.js"></script>
+  </body>
+</html>
